@@ -3,7 +3,12 @@
 <section id = "main-content">
 
 
-
+<img src ="img/baritone.png" />
+<img src="img/bass.png" />
+<img src="img/alto.png" />
+<img src="img/castrati.png" />
+<img src="img/soprano.png" />
+<img src="img/tenor.png" />
 
 
 
