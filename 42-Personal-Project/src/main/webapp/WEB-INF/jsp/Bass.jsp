@@ -2,17 +2,18 @@
 <c:import url="/WEB-INF/jsp/common/header.jsp" />
 <section id = "main-content">
 
-<h2> Check out these dope voice entires!</h2>
+
+<h2> If you are a bass, your range probably looks something like this! (See below)</h2>
+
+<img src="img/bass.png"/>
 
 
 
-<c:forEach items ="${voiceList}" var="voice">
 
-<br>
-<div> ${voice.firstName}</div>
-<div> ${voice.lastName}</div>
-<div> ${voice.voiceRange}</div>
 
-</c:forEach>
+<div> Some notable bass singers include: </div>
+
+
 </section>
+
 <c:import url="/WEB-INF/jsp/common/footer.jsp" />
