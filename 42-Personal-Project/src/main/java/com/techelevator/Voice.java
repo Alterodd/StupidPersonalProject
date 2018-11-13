@@ -3,7 +3,7 @@ package com.techelevator;
 public class Voice {
 
 	
-public int voiceRangeId;
+public Long voiceRangeId;
 public String firstName;
 public String lastName;
 public String voiceRange;
@@ -25,9 +25,17 @@ public String getVoiceRange() {
 public void setVoiceRange(String voiceRange) {
 	this.voiceRange = voiceRange;
 }
-public int getVoiceRangeId() {
+public Long getVoiceRangeId() {
 	return voiceRangeId;
 }
-	
+public void setVoiceRangeId(Long voiceRangeId) {
+	this.voiceRangeId = voiceRangeId;
+}
 	
 }
+
+
+
+
+
+
