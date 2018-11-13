@@ -16,4 +16,11 @@ public class HelloController {
 		return "homepage";
 	}
 	
+	@RequestMapping (path="voiceEntry", method=RequestMethod.GET) 
+	public String displayVoiceEntryPage() {
+		
+		return "voiceEntry";
+		
+	}
+	
 }

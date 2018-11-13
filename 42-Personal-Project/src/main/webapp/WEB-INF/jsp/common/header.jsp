@@ -10,8 +10,7 @@
 <header>
 <c:url var="stupidImage" value = "/img/singingChild.png"/>
 
-<img src ="${stupidImage}" alt="What a Weirdo!"/>
-<p>Pee pee pee!!!!!!</p>
-
+<img style = "height:20%; width:20%;"src ="${stupidImage}" alt="What a Weirdo!"/>
+<p>Welcome to the <b style="text-size: 20px;"> Woop Woop Voices(TM) </b>Voice Ranges Web Page, dingus!</p>
 
 </header>
