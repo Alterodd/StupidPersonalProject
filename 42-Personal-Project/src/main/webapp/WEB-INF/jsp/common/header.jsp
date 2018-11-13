@@ -7,10 +7,11 @@
 	</title>
 </head>
 <body>
-<header>
+<header style="background:#f5f5f5;" >
 <c:url var="stupidImage" value = "/img/singingChild.png"/>
-
-<img style = "height:20%; width:20%;"src ="${stupidImage}" alt="What a Weirdo!"/>
-<p>Welcome to the <b style="text-size: 20px;"> Woop Woop Voices(TM) </b>Voice Ranges Web Page, dingus!</p>
-
+<c:url var="otherStupidImage" value="/img/smallnote.png"/>
+<c:url var="otherOtherStupidImage" value="/img/cucumber.png"/>
+<c:url var="bigCodeLogo" value = "/img/BigCodeLogo.png"/>
+<h3> Woop Woop Voices(TM) Voice Ranges **** Woop Woop Voices(TM) Voice Ranges **** Woop Woop Voices(TM) Voice Ranges **** Woop Woop Voices(TM) Voice Ranges</h3>
+<div><img style = "height:15%; width:15%;"src ="${stupidImage}" alt="What a Weirdo!"/><img style="height:10%; width:10%;" src="${otherStupidImage}"/> <img style="height:10%; width: 10%;" src="${otherOtherStupidImage}"/><img style="height:5%; width:5%; margin-bottom:80px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:60px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:40px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:20px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:20px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:40px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:60px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:80px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:60px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:40px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:20px;"src="${bigCodeLogo}"/><img style="height:5%; width:5%; margin-bottom:40px;"src="${bigCodeLogo}"/></div>
 </header>

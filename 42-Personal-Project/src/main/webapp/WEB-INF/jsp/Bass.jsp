@@ -2,7 +2,7 @@
 <c:import url="/WEB-INF/jsp/common/header.jsp" />
 <section id = "main-content">
 
-
+<br><br><br>
 <h2> If you are a bass, your range probably looks something like this! (See below)</h2>
 
 <img src="img/bass.png"/>
@@ -10,10 +10,14 @@
 
 
 
+<br><br>
+<div style="font-size: 20px;"> Some notable bass singers include: Barry White, Luciano Pavarotti, and Avi Kaplan! For more information on your voice, click <a href="https://en.wikipedia.org/wiki/Bass_(voice_type)"><b>here!</b></a></div>
+<br><br><br><br><br>
 
-<div> Some notable bass singers include: </div>
+
+
+<div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
 
 
 </section>
-
-<c:import url="/WEB-INF/jsp/common/footer.jsp" />
+<c:import url="/WEB-INF/jsp/common/footer.jsp"/>

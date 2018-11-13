@@ -1,5 +1,7 @@
 package com.techelevator;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Voice {
 
 	
@@ -8,6 +10,16 @@ public String firstName;
 public String lastName;
 public String voiceRange;
 
+
+@Autowired
+public Voice(Long voiceRangeId, String firstName, String lastName, String voiceRange) {
+	this.voiceRangeId = voiceRangeId;
+	this.firstName = firstName;
+	this.lastName = lastName;
+	this.voiceRange = voiceRange;
+}
+
+public Voice() { }
 
 public String getFirstName() {
 	return firstName;

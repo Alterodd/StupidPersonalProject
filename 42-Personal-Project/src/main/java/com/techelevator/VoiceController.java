@@ -12,16 +12,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class VoiceController {
 
-	
- @Autowired
+ 
+@Autowired
 private VoiceDao voiceDao;
 	
- 
- 
-@RequestMapping (path="voiceEntry", method=RequestMethod.GET) 
-public String displayVoiceEntryPage() {
+	
+@RequestMapping (path="menuList", method=RequestMethod.GET) 
+public String displayMenuList() {
 		
-		return "voiceEntry";
+		return "menuList";
 		
 	}
 
@@ -58,7 +57,6 @@ public String displayCastratiPage() {
 }
 
 
-
 @RequestMapping(path="listOfVoiceEntries", method=RequestMethod.GET)
 	public String displayListOfVoiceEntries(HttpServletRequest request) {
 		request.setAttribute("voiceList", voiceDao.getAllVoiceEntries());
@@ -66,16 +64,28 @@ public String displayCastratiPage() {
 		
 	}
 	
+@RequestMapping(path="makeVoiceEntry", method=RequestMethod.GET)
+public String displayVoiceEntry() {
 	
-/**	@RequestMapping(path="voiceEntry", method=RequestMethod.POST)
+	return "makeVoiceEntry";
+	
+}
+
+
+
+
+@RequestMapping(path="makeVoiceEntry", method=RequestMethod.POST)
 	public String makeVoiceEntry(Voice voice) {
 		voiceDao.save(voice);
 		
 		return "redirect:/thankYou";
 		
 	}
-	*/
 	
-
+@RequestMapping(path="thankYou", method=RequestMethod.GET) 
+public String displayThankYou() {
+	
+	return "thankYou";
+}
 	
 }

@@ -3,16 +3,33 @@
 <section id = "main-content">
 
 <h2> Check out these dope voice entires!</h2>
+<table>
+<tr>
+<td></td><td></td><td></td>
+</tr>
 
+
+
+</table>
 
 
 <c:forEach items ="${voiceList}" var="voice">
+<table>
+<tr>
 
-<br>
-<div> ${voice.firstName}</div>
-<div> ${voice.lastName}</div>
-<div> ${voice.voiceRange}</div>
+
+<td><div><b>First Name |  </b></div>${voice.firstName}		| </td>
+<td><div><b>Last Name | </b></div>${voice.lastName}		| </td>
+<td><div><b>Vocal Range </b></div>${voice.voiceRange}</td>
+</tr>
+
+</table>
+
 
 </c:forEach>
+
+
+
+<p><a href="http://localhost:8080/42-Personal-Project/menuList">Main Menu</a></p>
 </section>
 <c:import url="/WEB-INF/jsp/common/footer.jsp" />
