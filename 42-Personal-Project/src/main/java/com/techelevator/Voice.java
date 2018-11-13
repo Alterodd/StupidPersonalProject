@@ -7,6 +7,8 @@ public Long voiceRangeId;
 public String firstName;
 public String lastName;
 public String voiceRange;
+
+
 public String getFirstName() {
 	return firstName;
 }

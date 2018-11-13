@@ -13,10 +13,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class VoiceController {
 
 	
-/** NOT WORKING RIGHT NOW FOR SOME REASON. WILL CONSULT TOM/OTHERS TOMORROW @Autowired
+ @Autowired
 private VoiceDao voiceDao;
-	 */
 	
+ 
+ 
 @RequestMapping (path="voiceEntry", method=RequestMethod.GET) 
 public String displayVoiceEntryPage() {
 		
@@ -58,13 +59,12 @@ public String displayCastratiPage() {
 
 
 
-/**@RequestMapping(path="listOfVoiceEntries", method=RequestMethod.GET)
+@RequestMapping(path="listOfVoiceEntries", method=RequestMethod.GET)
 	public String displayListOfVoiceEntries(HttpServletRequest request) {
 		request.setAttribute("voiceList", voiceDao.getAllVoiceEntries());
 		return "listOfVoiceEntries";
 		
 	}
-	*/
 	
 	
 /**	@RequestMapping(path="voiceEntry", method=RequestMethod.POST)
