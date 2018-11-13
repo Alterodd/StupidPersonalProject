@@ -8,7 +8,9 @@
 </head>
 <body>
 <header>
-<img src = "img/weirdoSinging.png"/>
+<c:url var="stupidImage" value = "/img/weirdoSinging.png"/>
+
+<img src ="${stupidImage}" alt="What a Weirdo!"/>
 <p>Pee pee pee!!!!!!</p>
 
 

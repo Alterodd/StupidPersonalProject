@@ -10,16 +10,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller 
 public class HelloController {
 
-	@RequestMapping(path= {"/", "greeting"})
+	@RequestMapping(path= {"/", "homepage"})
 	public String displayGreeting() {
 		
-		return "greeting";
-	}
-	@RequestMapping(path="something", method=RequestMethod.GET)
-	
-	public String something() {
-		
-		return "something";
+		return "homepage";
 	}
 	
 }
