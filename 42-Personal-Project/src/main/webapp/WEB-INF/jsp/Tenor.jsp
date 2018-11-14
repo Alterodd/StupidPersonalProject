@@ -13,7 +13,21 @@
 
 <div style="font-size: 18px;"> Some notable tenor singers include: Justin Timberlake, Mario del Monaco, Bing Crosby and, well there are really too many to count. For more information on your voice, click <a href="https://en.wikipedia.org/wiki/Tenor"><b>here!</b></a></div>
 <br><br><br>
+
+<div>Here's a sample of a beautiful tenor singing!</div>
+
+
+<audio controls>  
+<source src= "http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.03.mp3"/> 
+
+</audio>
+
+
+
 <div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
+
+
+
 
 
 </section>

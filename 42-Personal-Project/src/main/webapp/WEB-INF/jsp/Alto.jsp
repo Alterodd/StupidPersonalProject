@@ -10,7 +10,17 @@
 
 <div style="font-size: 18px;"> Some notable alto singers include: Judy Garland, Cher, Patsy Cline, and so so many more! For more information on your voice, click <a href="https://en.wikipedia.org/wiki/Alto"><b>here!</b></a></div>
 
+
+
 <br><br><br>
+<div>Here's a rendition of a nice alto voice!</div>
+<audio controls>
+
+
+<source src ="http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.04.mp3"/>
+
+</audio>
+
 <div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
 </section>
 

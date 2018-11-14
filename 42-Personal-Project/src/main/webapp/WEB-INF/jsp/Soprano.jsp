@@ -15,6 +15,19 @@
 <div style="font-size: 18px;"> Some notable alto singers include: Maria Callas, Elizabeth Schwarzkopf, Elisabeth Schumann, and more! For more information on your voice, click <a href="https://en.wikipedia.org/wiki/Soprano"><b>here!</b></a></div>
 
 <br><br><br>
+
+<div>Here's a sample of a Soprano for reference!</div>
+
+<audio controls>
+
+
+<source src ="http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.05.mp3"/>
+
+</audio>
+
+
+
+
 <div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
 
 

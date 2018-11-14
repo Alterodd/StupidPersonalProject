@@ -10,7 +10,15 @@
 
 
 <div style="font-size: 20px;"> Some notable bari singers include: Tito Gobbi, Jose Van Dam, Hermann Prey! For more information on your voice, click <a href="https://en.wikipedia.org/wiki/Baritone"><b>here!</b></a></div>
-<embed src="mp3/Baritone.mp3" width="240" height="160"> </embed>
+
+<br><br><br>
+<div>Here's a sample of what a nice baritone sounds like:</div>
+
+<audio controls>  
+<source src= "http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.02.mp3"/> 
+
+</audio>
+
 
 
 <br><br><br><br><br>
