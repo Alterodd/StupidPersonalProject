@@ -16,8 +16,8 @@
 
 
 
-<div>Here's a good sample of a bass-man rocking the bass.</div>
-
+<div>Here's a good sample of what a bass sounds like.</div>
+<br><br><br>
 
 <audio controls>  
 <source src= "http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.01.mp3"/> 
@@ -26,7 +26,7 @@
 
 
 
-<div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
+
 
 
 </section>

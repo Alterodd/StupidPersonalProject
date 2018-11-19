@@ -5,7 +5,7 @@
 <h3> If you are a bari, your range probably looks something like this! (See below)</h3>
 <br><br><br>
 
-<img style = "height:15%; width:15%" src="img/baritone.png"/>
+<img style = "height:25%; width:25%" src="img/baritone.png"/>
 
 
 
@@ -13,7 +13,7 @@
 
 <br><br><br>
 <div>Here's a sample of what a nice baritone sounds like:</div>
-
+<br><br><br>
 <audio controls>  
 <source src= "http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.02.mp3"/> 
 
@@ -23,7 +23,7 @@
 
 <br><br><br><br><br>
 
-<div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
+
 
 </section>
 

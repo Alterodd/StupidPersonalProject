@@ -14,11 +14,11 @@
 
 
 <c:forEach items ="${voiceList}" var="voice">
-<table>
+<table id = "voiceList">
 <tr>
 
 
-<td><div><b>First Name |  </b></div>${voice.firstName}		| </td>
+<td><div><b id ="firstName">First Name |  </b></div>${voice.firstName}		| </td>
 <td><div><b>Last Name | </b></div>${voice.lastName}		| </td>
 <td><div><b>Vocal Range </b></div>${voice.voiceRange}</td>
 </tr>
@@ -27,9 +27,5 @@
 
 
 </c:forEach>
-
-
-
-<p><a href="http://localhost:8080/42-Personal-Project/menuList">Main Menu</a></p>
 </section>
 <c:import url="/WEB-INF/jsp/common/footer.jsp" />

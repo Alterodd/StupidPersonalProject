@@ -21,7 +21,7 @@
 <input type="radio" name="voiceRange" value="Castrati"> Castrati
 </div>
 <br>
-<input type="submit" value="Submit" style="margin-left: 350px;">
+<input name = "submit" id="submit" type="submit" value="Submit" style="margin-left: 350px;">
 
 </form>
 

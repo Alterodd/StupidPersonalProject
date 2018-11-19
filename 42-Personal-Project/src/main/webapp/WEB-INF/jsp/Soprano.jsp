@@ -17,7 +17,7 @@
 <br><br><br>
 
 <div>Here's a sample of a Soprano for reference!</div>
-
+<br><br><br>
 <audio controls>
 
 
@@ -28,7 +28,7 @@
 
 
 
-<div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
+
 
 
 </section>

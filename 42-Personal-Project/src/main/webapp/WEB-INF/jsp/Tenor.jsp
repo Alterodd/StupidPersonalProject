@@ -15,16 +15,13 @@
 <br><br><br>
 
 <div>Here's a sample of a beautiful tenor singing!</div>
-
+<br><br><br>
 
 <audio controls>  
 <source src= "http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/5.03.mp3"/> 
 
 </audio>
 
-
-
-<div><a href="http://localhost:8080/42-Personal-Project/menuList">Return to main menu</a></div>
 
 
 
