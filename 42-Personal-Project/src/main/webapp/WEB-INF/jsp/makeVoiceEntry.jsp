@@ -2,21 +2,21 @@
 <c:import url="/WEB-INF/jsp/common/header.jsp" />
 
 <section id="main-content">
-<form action="makeVoiceEntry" method="POST">
+<form id = "voiceEntry" action="makeVoiceEntry" method="POST" novalidate ="novalidate">
 <div>
 <label>First Name</label>
-<input type="text" name="firstName">
+<input type="text" name="firstName" id = "firstName" placeholder="Johnny">
 </div>
 <div>
 <label>Last Name</label>
-<input type="text" name="lastName">
+<input type="text" name="lastName" id = "lastName" placeholder="Hammersticks">
 </div>
 <div>
 <label>Vocal Range</label>
 <input type="radio" name="voiceRange" value="Bass"> Bass
 <input type="radio" name="voiceRange" value="Baritone"> Baritone
 <input type="radio" name="voiceRange" value="Tenor"> Tenor
-<input type="radio" name="voiceRange" value="Alto"> Bass
+<input type="radio" name="voiceRange" value="Alto"> Alto
 <input type="radio" name="voiceRange" value="Soprano"> Soprano
 <input type="radio" name="voiceRange" value="Castrati"> Castrati
 </div>

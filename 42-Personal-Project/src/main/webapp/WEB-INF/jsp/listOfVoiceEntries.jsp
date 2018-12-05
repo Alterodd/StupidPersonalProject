@@ -2,7 +2,7 @@
 <c:import url="/WEB-INF/jsp/common/header.jsp" />
 <section id = "main-content">
 
-<h2> Check out these dope voice entires!</h2>
+<h2> Check out these dope voice entries!</h2>
 <table>
 <tr>
 <td></td><td></td><td></td>

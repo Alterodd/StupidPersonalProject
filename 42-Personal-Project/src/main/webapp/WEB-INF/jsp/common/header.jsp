@@ -8,7 +8,7 @@
 	</title>
 	<c:url value="/css/voices.css" var="cssHref" />
 	<link rel="stylesheet" href="${cssHref}">
-	
+	<script src = "/42-Personal-Project/js/personalprojectvalidation.js"></script>
 	
 </head>
 <body>
