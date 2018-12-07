@@ -1,36 +1,43 @@
 /// <reference path="../jquery-3.1.1.js" />
 /// <reference path="../jquery.validate.js" />
+
 $(document).ready(function () {
 	
-	$("#voiceEntry").validate({
+	$("#voiceForm").validate({
 		
 		debug: false,
 		rules: { 
 			firstName: { 
 				required: true,
-				minlength: 8,
-				maxlength: 8
+				lettersonly: true
 			},
 			lastName: {
 				required: true,
-				minlength: 8,
-				maxlength: 8
-			}	
+				lettersonly: true,
+			},
+			
 		},
 		
 		 messages: {
 			 
 			 firstName: { 
-				 required: "Please enter a first name",
+				 required: "Please enter a first name"
 			 },
 			lastName: { 
-				required: "Please enter a last name",
+				required: "Please enter a last name"
 			}
 		
 		 }
 
-	
 	});
+$.validator.addMethod("lettersonly", function(value, index) 
+			{
+			return this.optional(index) || /^[a-z ]+$/i.test(value);
+			}, "Please do not enter any special characters or numbers");		
+		
+
+	
+	
 	
 	
 });

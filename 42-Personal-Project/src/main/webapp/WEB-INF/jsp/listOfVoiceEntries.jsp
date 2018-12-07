@@ -3,18 +3,13 @@
 <section id = "main-content">
 
 <h2> Check out these dope voice entries!</h2>
-<table>
-<tr>
-<td></td><td></td><td></td>
-</tr>
-
-
-
-</table>
-
 
 <c:forEach items ="${voiceList}" var="voice">
-<table id = "voiceList">
+ <div>
+
+<table id = "voiceList" class ="table table-bordered table-striped">
+
+<tbody>
 <tr>
 
 
@@ -22,9 +17,9 @@
 <td><div><b>Last Name | </b></div>${voice.lastName}		| </td>
 <td><div><b>Vocal Range </b></div>${voice.voiceRange}</td>
 </tr>
-
+</tbody>
 </table>
-
+</div>
 
 </c:forEach>
 </section>
